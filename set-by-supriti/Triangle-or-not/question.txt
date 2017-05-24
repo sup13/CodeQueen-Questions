@@ -1,0 +1,11 @@
+Given 3 points A(a1,a2),B(b1,b2),C(c1,c2), check if a triangle can be formed on joining these points.If it is possible to form a triangle, print P(p1,p2)-the centroid of the triangle, otherwise print "-1"(without quotes);
+
+Input :- The first line consists of an integer- T, the number of test cases. Next there are T lines,each containing 6 space-separated float values- a1,a2,b1,b2,c1,c2.
+
+Output :- T lines,each containing the answer corresponding to the given 3 points i.e. either "-1" (without quotes) or 2 space-separated values denoting the x and y coordinates of centroid (correct to 2 decimal places).
+
+Constraints :- 
+
+1<=T<=1000
+
+0.00<=a1,a2,b1,b2,c1,c2<=100.00

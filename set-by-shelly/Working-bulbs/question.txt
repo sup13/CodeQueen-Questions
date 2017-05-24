@@ -1,0 +1,23 @@
+Monu lives in a hostel and she is supposed to tell the total number of working bulbs to 
+Caretaker kundu ma'am. Given a number n as input represents total number of rooms in that hostel 
+numbered from 1 to n and binary representation of a number represents the series of bulbs in that 
+room. 1 refers to working bulb and 0 refers to damaged bulb. Given a number n as input help Monu 
+to count total number of working bulbs in the hostel.
+
+Input : First line contains an integer t, number of test cases. Next t lines contains integer n, 
+number of rooms in hostel.
+Output : t lines of output - Number of working bulbs for each test case.
+
+Constraints : 
+1 <= t < 10^5
+1 <= n <= 2^35
+
+Sample Input :
+2
+17
+4
+
+Sample Output : 
+35
+5
+

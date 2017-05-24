@@ -1,0 +1,38 @@
+There are N students in a class having unique ID from 1 to N(In the given list,the first student has ID 1,second one has ID 2 and so on).The class teacher wants to select K students out of them for an inter-school quiz competition.The teacher wants the school to acquire the 1st position in the event and hence decides a criteria to select the students.The criteria considers the IQ and the attendance of each student.The student with a higher IQ value is preferred to the one with a lower IQ value. In case of a tie in IQ values, the tie is broken by giving preference to the attendance of the students i.e. the student with greater attendance is preferred to the one with lesser attendance.In case of a tie in attendance values, the student whose ID is smaller is preferred.
+
+Calculation of IQ of a student :- the number of palindromic subsequences in his name (empty subsequence is not considered).
+Calculation of attendance of a student :- the number of vowels in his name.
+
+Input : The first line of the input consists of 2 integers N and K-the number of students in the class and the number of students the teacher wants to select out of the N students in the class.Next N lines, each consisting of a string S,the name of a student.
+
+Output : K lines,each consisting of the ID of a student selected for the event,his name,his IQ level and his attendance separated by a space arranged according to the criteria.
+
+Constraints :-
+1<=N<=100
+1<=K<=N
+1<=|S|<=12
+S will contain only lowercase alphabets.
+
+Sample Input :-
+5 4
+mary 
+belle 
+hannah 
+ana 
+sara 
+
+Sample Output :- 
+3 hannah 21 2 
+2 belle 10 2
+5 sara 6 2
+4 ana 5 2
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Rishu, a little kid,has been given a very tough job by his mother.He is given N marbles.Marbles are marked uniquely and has an ID from 1 to N.His mother marks a point on the ground and instructs him to place the marbles on the ground in such a way that each marble is placed at an equal distance from the marked point.Now Rishu has to calculate the absolute difference between the IDs of every adjacent marble and find out the sum of these absolute differences.When he tells this sum (let it be denoted by S) to his mother,she takes away N marbles from his and instead, gives him S number of marbles.Rishu wants to maximize this profit(i.e. maximize the value of S).
+However,this was not enough.His mother gave him another tough task to do!! S marbles are marked uniquely and has an ID from 1 to S. This time Rishu again has to place all his marbles on the ground in such a way that each of them is at equal distance from the marked point.Then he has to draw S/2 lines joining the S marbles such that no 2 lines intersect.You are his mischievous friend and are overjoyed seeing little Rishu struggling. But suddenly,a question crossed your mind and now you are busy finding an answer to the question.The question is what is the number of ways in which Rishu can draw exactly S/2 lines joining S marbles such that none of the S/2 lines intersect each other. Two ways are different if there exists a line which is present in one way and not in the other. 
+
+Input :-
+First line contains an integer T,the number of test cases.Next T lines contain an integer N each.
+
+Output:-
+T lines. Each line contains an integer- the number of ways in which Rishu can draw exactly S/2 lines joining S marbles such that none of the S/2 lines intersect each other. Since this integer can be very large,output answer%1000000007.
+
+Constraints:-
+1<=T<=10
+2<=N<=150
+
+Sample Input:-
+2
+5
+10
+
+Sample Output:-
+132
+946367425
+
+ 

@@ -1,0 +1,21 @@
+Helena is cooking a special dish using a recipe book which includes preparing intermediate ingredients 
+to make the final dish. 
+Given n number of all dependencies between ingredients, followed by n space separated lines which 
+represents the order in which ingredients should be prepared,
+help her to find an order in which she should prepare all ingredients so that she can prepare dish
+without wasting any time waiting for any ingredint to be cooked.
+ 
+Input : First line contains Integer n as explained above. Next n lines contain list of three space
+separated ingredients each, which represents the order in which ingredients should be prepared.
+Output : list of ingredients(without any delimiter), in the order they should be prepared. 
+
+Sample Input : 
+4
+c a b
+d a c
+e d c
+a f g
+
+Sample Output : 
+edcafgb
+  

@@ -1,0 +1,27 @@
+Given an integer N, find out :-
+(i) xor of its divisors
+(ii) or of its divisors
+(iii) and of its divisors
+
+Input :- The first line consists of an integer T, the number of testcases. T lines follow, each consisting of an integer N.
+
+Output :- N lines, each line consisting of (i),(ii) and (iii) separated by a space.
+
+Constraints:-
+T<=1000000
+1<=N<=1000000
+
+Sample Input :-
+5
+3
+10
+16
+20
+25
+
+Sample Output :-
+2 3 1
+12 15 0
+31 31 0
+28 31 0
+29 29 1
